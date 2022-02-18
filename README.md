@@ -1,10 +1,10 @@
 # langkah-langkah-laravel-8
 
-composer create-project --prefer-dist laravel/laravel blog<br
-cd blog
-php artisan serve    //jalankan web ke localhost
-php artisan make:model Post OR php artisan make:model Post -m  // create model Post  -m=migration untuk pembuatan class ke database
-php artisan make:controller PostController  //create controller
-route::resource('post', PostController::class); //tambahkan di routes/web
+composer create-project --prefer-dist laravel/laravel blog <br>
+cd blog <br>
+php artisan serve    //jalankan web ke localhost<br>
+php artisan make:model Post OR php artisan make:model Post -m  // create model Post  -m=migration untuk pembuatan class ke database<br>
+php artisan make:controller PostController  //create controller<br>
+route::resource('post', PostController::class); //tambahkan di routes/web<br>
 
 selanjutnya https://qadrlabs.com/post/belajar-laravel-8-membuat-aplikasi-crud-sederhana
