@@ -1,6 +1,6 @@
 # langkah-langkah-laravel-8
 
-composer create-project --prefer-dist laravel/laravel blog
+composer create-project --prefer-dist laravel/laravel blog<br
 cd blog
 php artisan serve    //jalankan web ke localhost
 php artisan make:model Post OR php artisan make:model Post -m  // create model Post  -m=migration untuk pembuatan class ke database
